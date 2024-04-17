@@ -119,7 +119,7 @@ void moveOddItemsToBack(LinkedList *ll)
 		}
 		current = next;
 	}
-	// 짝수가 없을땐 홀수시작 나머지는 홀수시작
+	// 짝수가 없을땐 홀수시작 나머지는 짝수시작
 	if (evenTail == NULL)
 	{
 		ll->head = oddHead;
